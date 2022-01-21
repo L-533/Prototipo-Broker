@@ -1,0 +1,6 @@
+mosquitto_sub -h 127.0.0.1 -p 1883 -t "casa/cocina" -u "Luis" -v
+mosquitto_sub -h 127.0.0.1 -p 1883 -t "casa/cocina" -u "Daniel" -v
+mosquitto_sub -h 127.0.0.1 -p 1883 -t "casa/cocina" -u "Oscar" -v
+
+mosquitto_pub -h 127.0.0.1 -p 1883 -t "casa/cocina" -u "cocina"
+mosquitto_pub -h 127.0.0.1 -p 1883 -t "casa/sala" -u "sala"
